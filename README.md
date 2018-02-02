@@ -11,4 +11,4 @@
 - **motifs.m**: Counts the number of times motifs occur in a network
 - **Position_motifs.m**: Counts the number of times nodes occur in unique positions within motifs
 - **tensor_make.m**: 
-- **tensorR.m**: 
+- **tensorR.m**: Function for calculating the tensor product of arrays
