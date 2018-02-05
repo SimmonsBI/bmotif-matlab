@@ -11,7 +11,7 @@
 - **Position_motifs.m**: Counts the number of times nodes occur in unique positions within motifs
 
 ### Internal functions
-- **Check_mot.m**: Internal function for checking that the input arguments for motifs.m are valid
-- **Check_pos.m**: Internal function for checking that the input arguments for Position_motifs.m are valid
-- **tensor_make.m**: Internal function for making tensor
-- **tensorR.m**: Internal function for calculating the tensor product of arrays
+- **Check_mot.m**: Internal function for checking that the input arguments for motifs.m are valid; called by motifs.m
+- **Check_pos.m**: Internal function for checking that the input arguments for Position_motifs.m are valid; called by Position_motifs.m
+- **tensor_make.m**: Internal function for making tensor; called by motifs.m and Position_motifs.m
+- **tensorR.m**: Internal function for calculating the tensor product of arrays; called by motifs.m and Position_motifs.m
