@@ -17,3 +17,10 @@
 - **Check_pos.m**: Internal function for checking that the input arguments for Position_motifs.m are valid; called by Position_motifs.m
 - **tensor_make.m**: Internal function for making tensor; called by motifs.m and Position_motifs.m
 - **tensorR.m**: Internal function for calculating the tensor product of arrays; called by motifs.m and Position_motifs.m
+
+## Motif and motif position dictionary
+We define motif IDs and motif position IDs following Baker et al (2015) Appendix 1 Figure A27. These definitions can also be seen in the paper describing the bmotif software package: Simmons, B.I, Sweering, M. J. M, Dicks, L. V., Sutherland, W. J., Di Clemente, R. bmotif: a package for counting motifs in bipartite networks. (paper not yet published, full citation will be placed here when the paper is published)
+
+## Citation
+If you use the package in your work, please cite:
+Simmons, B.I, Sweering, M. J. M, Dicks, L. V., Sutherland, W. J., Di Clemente, R. bmotif: a package for counting motifs in bipartite networks. (paper not yet published, full citation will be placed here when the paper is published)
