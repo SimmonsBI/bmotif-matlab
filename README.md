@@ -2,7 +2,10 @@
 
 ## Overview
 
-`bmotif` is software to count occurrences of motifs in bipartite networks, as well as the number of times each node appears in each unique position within motifs. `bmotif` considers all 44 unique bipartite motifs up to six nodes and all 148 unique positions within these motifs. It is available in [R](https://github.com/SimmonsBI/bmotif), [MATLAB](https://github.com/SimmonsBI/bmotif-matlab) and [Python](https://github.com/SimmonsBI/bmotif-python). `bmotif` was originally developed to analyse bipartite species interaction networks in ecology but its methods are general and can be applied to any bipartite graph. The code is released under the MIT license.
+`bmotif` is software to count occurrences of motifs in bipartite networks, as well as the number of times each node appears in each unique position within motifs. `bmotif` considers all 44 unique bipartite motifs up to six nodes and all 148 unique positions within these motifs. It is available in [R](https://github.com/SimmonsBI/bmotif), [MATLAB](https://github.com/SimmonsBI/bmotif-matlab) and [Python](https://github.com/SimmonsBI/bmotif-python). `bmotif` was originally developed to analyse bipartite species interaction networks in ecology but its methods are general and can be applied to any bipartite graph.
+
+## Motif and motif position dictionary
+The motifs corresponding to each motif ID and the positions corresponding to each motif position ID can be found in **Simmons, B.I, Sweering, M. J. M, Dicks, L. V., Sutherland, W. J., Di Clemente, R. bmotif: a package for counting motifs in bipartite networks. (paper not yet published, full citation will be placed here when the paper is published)**. These were defined following Baker et al (2015) Appendix 1 Figure A27.
 
 ## Scripts
 ### Guide
@@ -18,8 +21,8 @@
 - **tensor_make.m**: Internal function for making tensor; called by motifs.m and Position_motifs.m
 - **tensorR.m**: Internal function for calculating the tensor product of arrays; called by motifs.m and Position_motifs.m
 
-## Motif and motif position dictionary
-We define motif IDs and motif position IDs following Baker et al (2015) Appendix 1 Figure A27. These definitions can also be seen in the paper describing the bmotif software package: Simmons, B.I, Sweering, M. J. M, Dicks, L. V., Sutherland, W. J., Di Clemente, R. bmotif: a package for counting motifs in bipartite networks. (paper not yet published, full citation will be placed here when the paper is published)
+## License
+The code is released under the MIT license.
 
 ## Citation
 If you use the package in your work, please cite:
