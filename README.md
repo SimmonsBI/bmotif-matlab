@@ -22,7 +22,7 @@ The motifs corresponding to each motif ID and the positions corresponding to eac
 - **tensorR.m**: Internal function for calculating the tensor product of arrays; called by motifs.m and Position_motifs.m
 
 ## License
-The code is released under the MIT license.
+The code is released under the MIT license (see LICENSE file).
 
 ## Citation
 If you use the package in your work, please cite:
